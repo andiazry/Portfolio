@@ -29,8 +29,8 @@ header {
 .header-block-left {
 	width: 50%;
 	height: 100vh;
-	background: #DAE2F8;
-	background: linear-gradient(45deg, #ee9ca7 , #ffdde1 60%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #E9DBC8;
+	background: linear-gradient(45deg, #E9DBC8 , #ffdde1 60%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	position: relative;
 	float: left;
 	border: 30px solid #fff;
