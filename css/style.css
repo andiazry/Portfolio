@@ -19,7 +19,7 @@ header {
 
 .header-copy {
 	text-align: center;
-	width: 80%;
+	width: 90%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -29,8 +29,8 @@ header {
 .header-block-left {
 	width: 50%;
 	height: 100vh;
-	background: #E9DBC8;
-	background: linear-gradient(45deg, #E9DBC8 , #ffdde1 60%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #fff;
+	/*background: linear-gradient(45deg, #fff , #ffdde1 70%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	position: relative;
 	float: left;
 	border: 30px solid #fff;
@@ -92,12 +92,13 @@ header {
 
 	font-size: 1.05em;
 	line-height: 1.65;
-	color: #333333;
+	font-weight: 400;
+	color: #333;
 }
 
 .name-copy {
 	width: 80%;
-	margin: 35px;
+	margin: 30px;
 	position: absolute;
 	top: 10%;
 	left: 0;
@@ -154,6 +155,7 @@ nav li {
 	width: 85%;
 	height: 100%;
 	margin: auto;
+	text-align: center;
 }
 
 .img-card {
@@ -177,7 +179,7 @@ nav li {
 }
 
 .copy-card:hover {
-	background: #F86161;
+	background: #084AC4;
 	color: white;
 }
 
@@ -191,6 +193,8 @@ nav li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-align: left;
+
 }
 
 
@@ -204,7 +208,7 @@ nav li {
 footer {
 	width: 100%;
 	height: 350px;
-	background: #333;
+	background: #0C54D9;
 }
 
 .footer-container {
@@ -317,8 +321,8 @@ nav li {
 }
 
 .header-copy {
-	font-size: 3em;
-	color: #F86161;
+	font-size: 4.2em;
+	color: #084AC4;
 	line-height: 1.15em;
 	letter-spacing: .1em;
 	font-weight: 900;
@@ -330,21 +334,29 @@ nav li {
 	margin-bottom: 15px;
 }
 
-.copy-card h1 {
-	font-size: 4em;
+.portfolio-header-copy {
+	font-size: 3em;
 	font-weight: 600;
-	line-height: .8;
+	line-height: 1;
+	margin-bottom: 100px;
+}
+
+.copy-card h1 {
+	font-size: 4.2em;
+	font-weight: 600;
+	line-height: 1;
 }
 
 .copy-card h3 {
-	font-size: 1em;
-	color: #F86161;
-	margin-top: 15px;
-	font-weight: 400;
+	font-size: 1.2em;
+	color: #0C54D9;
+	margin-top: 20px;
+	font-weight: 600;
 }
 
 .copy-card p {
 	font-size: 1em;
+	line-height: 1.4em;
 	margin-top: 50px;
 	font-weight: 300;
 }
