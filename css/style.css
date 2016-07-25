@@ -1,0 +1,418 @@
+
+/* MAIN
+================================================== */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+}
+
+header {
+	height: 100vh;
+}
+
+.header-copy {
+	text-align: center;
+	width: 80%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.header-block-left {
+	width: 50%;
+	height: 100vh;
+	background: #DAE2F8;
+	background: linear-gradient(45deg, #ee9ca7 , #ffdde1 60%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	position: relative;
+	float: left;
+	border: 30px solid #fff;
+	border-right: 0;
+}
+
+.header-block-right {
+	width: 50%;
+	height: 100vh;
+	float: right;
+	border: 30px solid #fff;
+	border-left: 0;
+	position: relative;
+
+	background: url("../img/splash-img.jpg") no-repeat center right;
+	background-size: cover;
+	position: relative;
+}
+
+
+
+
+
+/* ABOUT
+================================================== */
+
+
+.about-block-left {
+	width: 50%;
+	height: 100vh;
+
+	background: #fff;
+	position: relative;
+	float: left;
+	border: 30px solid #fff;
+	border-right: 0;
+}
+
+.about-block-right {
+	width: 50%;
+	height: 100vh;
+	float: right;
+	border: 30px solid #fff;
+	border-left: 0;
+	position: relative;
+
+	background: url("../img/profile-photo-old.jpg") no-repeat center left;
+	background-size: cover;
+	position: relative;
+}
+
+.about-copy {
+	width: 80%;
+	margin: 35px;
+	position: absolute;
+	top: 20%;
+	left: 0;
+
+
+	font-size: 1.05em;
+	line-height: 1.65;
+	color: #333333;
+}
+
+.name-copy {
+	width: 80%;
+	margin: 35px;
+	position: absolute;
+	top: 10%;
+	left: 0;
+
+	font-size: 1.2em;
+	color: #F86161;
+	font-weight: 700;
+}
+
+
+
+
+
+/* NAV
+================================================== */
+
+
+nav {
+	width: 50%;
+	padding: 45px 55px;
+	position: fixed;
+	z-index: 1000;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+	padding-right: 50px;
+}
+
+
+
+
+
+/* PORTFOLIO
+================================================== */
+
+
+.portfolio-gallery {
+	clear: both;
+	height: 100%;
+	width: 100%;
+	padding: 100px 0;
+	background-color: #F9F9F9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.portfolio-container {
+	width: 85%;
+	height: 100%;
+	margin: auto;
+}
+
+.img-card {
+	display: block;
+	width: 685px;
+	height: 455px;
+	float: left
+}
+
+.card-img {
+	width: 685px;
+}
+
+.copy-card {
+	display: inline-block;
+	background: #fff;
+	width: 455px;
+	height: 455px;
+	padding: 50px;
+	transition: .3s;
+}
+
+.copy-card:hover {
+	background: #F86161;
+	color: white;
+}
+
+.copy-card:hover h3 {
+	color: white;
+}
+
+.portfolio-card {
+	width: 100%;
+	margin: 45px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+/* FOOTER
+================================================== */
+
+
+footer {
+	width: 100%;
+	height: 350px;
+	background: #333;
+}
+
+.footer-container {
+	width: 85%;
+	height: 350px;
+	margin: auto;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-contact {
+	width: 50%;
+	float: left;
+}
+
+.footer-copyright {
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+
+
+
+
+
+/* BUNDL
+================================================== */
+
+
+.bundl-background {
+	width: 100%;
+	height: 100%;
+	background: url("../img/bundl-hero.png") no-repeat center center;
+	background-size: contain;
+}
+
+.bundl-header {
+	width: 100%;
+	height: 100vh;
+	border: 30px solid #fff;
+	background-size: contain;
+	z-index: 1;
+	background: #FED369;
+}
+
+.bundl-container {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	z-index: 1;
+}
+
+.bundl-header h1 {
+	text-align: center;
+	font-size: 10em;
+	margin-top: -120px;
+	color: #333;
+	z-index: 1000;
+}
+
+.bundl-container h3 {
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.study-copy-container {
+	width: 55%;
+	height: 100%;
+	margin: 100px auto;
+	color: #333;
+}
+
+.study-copy-container p {
+	font-size: 1.2em;
+}
+
+.emphasis-copy {
+	color: #F86161;
+}
+
+.article-header {
+	font-size: 3em;
+	margin: 100px 0 50px;
+}
+
+.study-copy-container ul {
+	font-size: 1.2em;
+	margin: 30px 0;
+	margin-left: 50px;
+}
+
+
+
+
+
+
+
+/* TYPOGRAPHY
+================================================== */
+
+
+body {
+	font-family: "sofia-pro", sans-serif;
+}
+
+nav li {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.header-copy {
+	font-size: 3em;
+	color: #F86161;
+	line-height: 1.15em;
+	letter-spacing: .1em;
+	font-weight: 900;
+}
+
+.action-copy {
+	font-size: 2.5em;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.copy-card h1 {
+	font-size: 4em;
+	font-weight: 600;
+	line-height: .8;
+}
+
+.copy-card h3 {
+	font-size: 1em;
+	color: #F86161;
+	margin-top: 15px;
+	font-weight: 400;
+}
+
+.copy-card p {
+	font-size: 1em;
+	margin-top: 50px;
+	font-weight: 300;
+}
+
+
+footer p {
+	color: #fff;
+	font-size: .95em;
+	font-weight: 200;
+}
+
+.footer-copyright p {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* LINKS
+================================================== */
+
+
+nav a:link {
+	color: #333;
+	text-decoration: none;
+	transition: .2s;
+}
+
+nav a:visited {
+	color: #333;
+}
+
+nav a:hover {
+	color: #F86161;
+}
+
+nav .active-link {
+	color: #F86161;
+	padding-bottom: 5px;
+	border-bottom: 5px solid #F86161;
+}
+
+a:link {
+	color: #333;
+}
+
+a:visited {
+	color: #333;
+}
+
+.about-copy a:link {
+	color: #F86161;
+	text-decoration: none;
+	transition: .2s;
+}
+
+.about-copy a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+.about-copy a:visited {
+	color: #F86161;
+}
+
+::selection {
+	background: #333;
+	color: #fff;
+}
