@@ -29,11 +29,11 @@ header {
 .header-block-left {
 	width: 50%;
 	height: 100vh;
-	background: #fff;
+	background: #FFFEF9;
 	/*background: linear-gradient(45deg, #fff , #ffdde1 70%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	position: relative;
 	float: left;
-	border: 30px solid #fff;
+	border: 30px solid #FFFEF9;
 	border-right: 0;
 }
 
@@ -41,7 +41,7 @@ header {
 	width: 50%;
 	height: 100vh;
 	float: right;
-	border: 30px solid #fff;
+	border: 30px solid #FFFEF9;
 	border-left: 0;
 	position: relative;
 
@@ -171,7 +171,7 @@ nav li {
 
 .copy-card {
 	display: inline-block;
-	background: #fff;
+	background: #FFFEF9;
 	width: 455px;
 	height: 455px;
 	padding: 50px;
@@ -179,7 +179,7 @@ nav li {
 }
 
 .copy-card:hover {
-	background: #084AC4;
+	background: #1867FF;
 	color: white;
 }
 
@@ -208,11 +208,11 @@ nav li {
 footer {
 	width: 100%;
 	height: 350px;
-	background: #0C54D9;
+	background: #1867FF;
 }
 
 .footer-container {
-	width: 85%;
+	width: 90%;
 	height: 350px;
 	margin: auto;
 	display: flex;
@@ -249,7 +249,7 @@ footer {
 .bundl-header {
 	width: 100%;
 	height: 100vh;
-	border: 30px solid #fff;
+	border: 30px solid #FFFEF9;
 	background-size: contain;
 	z-index: 1;
 	background: #FED369;
@@ -322,14 +322,14 @@ nav li {
 
 .header-copy {
 	font-size: 4.2em;
-	color: #084AC4;
+	color: #1867FF;
 	line-height: 1.15em;
 	letter-spacing: .1em;
 	font-weight: 900;
 }
 
 .action-copy {
-	font-size: 2.5em;
+	font-size: 4em;
 	font-weight: 700;
 	margin-bottom: 15px;
 }
@@ -344,12 +344,12 @@ nav li {
 .copy-card h1 {
 	font-size: 4.2em;
 	font-weight: 600;
-	line-height: 1;
+	line-height: .9;
 }
 
 .copy-card h3 {
 	font-size: 1.2em;
-	color: #0C54D9;
+	color: #1867FF;
 	margin-top: 20px;
 	font-weight: 600;
 }
@@ -366,9 +366,14 @@ footer p {
 	color: #fff;
 	font-size: .95em;
 	font-weight: 200;
+	margin-bottom: 8px;
 }
 
-.footer-copyright p {
+
+.footer-copyright li {
+	font-size: 1.8em;
+	font-weight: 300;
+	color: #fff;
 	margin-bottom: 10px;
 }
 
@@ -421,6 +426,29 @@ a:visited {
 }
 
 .about-copy a:visited {
+	color: #F86161;
+}
+
+.about-copy a:visited:hover {
+	color: #333;
+}
+
+footer a:link {
+	color: #fff;
+	text-decoration: none;
+	transition: .2s;
+}
+
+footer a:hover {
+	color: #F86161;
+	text-decoration: underline;
+}
+
+footer a:visited {
+	color: #fff;
+}
+
+footer a:visited:hover {
 	color: #F86161;
 }
 
